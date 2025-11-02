@@ -141,6 +141,6 @@ Found: {len(section_bookings)}""")
 if total_count == len(section_bookings):
     print("✅ SUCCESS: All bookings verified!")
 else:
-    print("❌ MISMATCH: Missing -1 bookings")
+    print("❌ MISMATCH: Missing {len(section_bookings)-total_count} bookings")
 
 #driver.close()
